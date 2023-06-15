@@ -196,7 +196,7 @@ public class LeagueManager {
             System.out.println("Result: " + homeTeam.getName() + " " + homeGoals + " - " + awayGoals + " " + awayTeam.getName());
             System.out.println();
 
-            Thread.sleep(1);
+            Thread.sleep(10000);
         }
     }
 
