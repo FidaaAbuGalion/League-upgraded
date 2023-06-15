@@ -58,4 +58,12 @@ public class Match {
     public List<Goal> getGoals() {
         return goals;
     }
+
+    @Override
+    public String toString() {
+        return "Match{" +
+                ", homeGoals=" + homeGoals +
+                ", awayGoals=" + awayGoals +
+                '}';
+    }
 }

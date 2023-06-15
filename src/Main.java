@@ -19,7 +19,7 @@ public class Main {
                     leagueManager.generateLeagueSchedule(teams);
                     break;
                 case 2:
-                    leagueManager.simulateLeagueMatches();
+                    leagueManager.thingsCanDo();
                     break;
                 case 3:
                     leagueManager.calculateTeamStandings(teams);
@@ -42,6 +42,7 @@ public class Main {
         System.out.println("4. Exit");
         System.out.println("Please enter your choice:");
     }
+
     public static int getUserChoice() {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
